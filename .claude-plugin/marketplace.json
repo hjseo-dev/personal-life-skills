@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "personal-life-skills",
+  "description": "개인/생활용 Claude Code 스킬 모음",
+  "owner": {
+    "name": "hjseo-dev"
+  },
+  "plugins": [
+    {
+      "name": "life",
+      "description": "개인/생활용 스킬 모음 (독산1동 기준 날씨/우산, 본가 이동시간, 임의 구간 통행료/기름값, 공부하기 좋은 카페 추천, 제주 여행 일정, URL 북마크 정리, FC온라인 전적 분석, 테마별 시가총액 top3, 종목 재무제표/밸류에이션 분석, 예적금 상품 비교, 월급 기반 카드값 한도와 복리 자산 시뮬레이션). 각 스킬은 /life:<스킬명>으로 호출한다.",
+      "source": "."
+    }
+  ]
+}

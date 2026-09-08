@@ -1,0 +1,7 @@
+[plugin]
+name = "life"
+description = "개인/생활용 Claude Code 스킬 모음 (날씨, 이동시간, 통행료/기름값, 카페 추천, 여행 일정, 북마크, 게임 전적, 종목 추천, 예적금 비교, 자산 시뮬레이션 등)"
+version = "1.0.0"
+
+[locations]
+skills = "./skills"
